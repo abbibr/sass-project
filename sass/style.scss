@@ -1,0 +1,289 @@
+$color: white;
+$uppercase: uppercase;
+$cursor: pointer;
+
+/* header qism */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background-image: url("../images/02.png");
+    color: $color;
+    height: 525px;
+    padding: 75px 50px;
+    hr
+    {
+        opacity: 0.35;
+    }
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.icons
+{
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+    i
+    {
+        margin-left: 12px;
+        font-size: 13px;
+        cursor: $cursor;
+    }
+    span
+    {
+        font-size: 13px;
+    }
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .logo
+    {
+        text-transform: $uppercase;
+        font-size: 12px;
+        cursor: $cursor;
+    }
+    .nav
+    {
+        display: flex;
+        list-style: none;
+        li
+        {
+            margin-left: 20px;
+            text-transform: $uppercase;
+            cursor: $cursor;
+            font-size: 16px;
+        }
+        li:hover
+        {
+            color: #DC8E47;
+            transition: 0.5s;
+        }
+    }
+}
+.a
+{
+    color: #DC8E47;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 555px;
+    h1
+    {
+        font-size: 57px;
+    }
+    p
+    {
+        text-align: center;
+        font-size: 18px;
+        width: 50%;
+    }
+    .liniya
+    {
+        margin: 17px 0;
+        background: #DC8E47;
+        width: 157px;
+        height: 5px;
+        border-radius: 50px;
+    }
+    button
+    {
+        margin-top: 50px;
+        padding: 12px 25px;
+        background: #DC8E47;
+        border: 1px solid #DC8E47;
+        color: $color;
+        outline: none;
+        text-transform: $uppercase;
+        cursor: $cursor;
+    }
+    button:hover
+    {
+        background: url("../images/02.png");
+        border: 1px solid white;
+    }
+}
+
+/* footer qism */
+
+.footer
+{
+    background: #1A1914;
+    color: $color;
+    height: auto;
+    padding: 75px 50px;
+    .h1
+    {
+        text-transform: $uppercase;
+        font-size: 26px;
+        text-align: center;
+    }
+    .tags
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        h3
+        {
+            margin-left: 17px;
+            text-transform: $uppercase;
+            font-size: 15px;
+            color: #DC8E47;
+            cursor: $cursor;
+        }
+        i
+        {
+            color: #DC8E47;
+            font-size: 20px;
+            cursor: $cursor;
+        }
+    }
+    hr
+    {
+        opacity: 0.17;
+    }
+    .block
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        h1
+        {
+            font-size: 23px;
+            margin-top: 50px;
+            margin-bottom: 25px;
+            color: $color;
+        }
+        .one
+        {
+            width: 22%;
+            color: #C1C2C4;
+            i
+            {
+                margin: 20px 9px;
+                cursor: $cursor;
+            }
+        }
+        .two
+        {
+            width: 23%;
+            color: #C1C2C4;
+            p
+            {
+                line-height: 21px;
+                width: 85%;
+                margin-top: 40px;
+                margin-bottom: 15px;
+            }
+            input
+            {
+                background: #292929;
+                outline: none;
+                padding: 8px 23px;
+                border: 1px solid #292929;
+                color: white;
+                font-size: 15px;
+                margin: 5px 0;
+            }
+            input:focus
+            {
+                border: 1px solid #DC8E47;
+                transition: 0.5s;
+            }
+            button
+            {
+                margin: 5px 0;
+                padding: 9px 20px;
+                background: #DC8E47;
+                color: white;
+                outline: none;
+                border: 1px solid #DC8E47;
+                cursor: $cursor;
+                text-transform: $uppercase;
+            }
+            button:hover
+            {
+                background: #1A1914;
+                transition: 0.5s;
+            }
+        }
+        .three
+        {
+            width: 22%;
+            color: #C1C2C4; 
+            p
+            {
+                color: #DC8E47;
+                margin: 15px 0;
+                cursor: $cursor;
+            }
+        }
+        .four
+        {
+            width: 23%;
+            .img
+            {
+                cursor: $cursor;
+                img
+                {
+                    margin: 5px;
+                    height: 70px;
+                    width: 70px;
+                }
+            }
+        }
+    }
+    .tarmoqlar
+    {
+        display: flex;
+        .ab
+        {
+            position: relative;
+            width: 35px;
+            height: 35px;
+            background: #292929;
+            margin-left: 7px;
+            i
+            {
+                position: absolute;
+                top: -10px;
+            }
+        }
+    }
+}
+
+/* last qism */
+
+.last
+{
+    background: #292929;
+    height: auto;
+    .text
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 23px 50px;
+        color: #C1C2C4;
+        font-family: sans-serif;
+        p::selection
+        {
+            background: red;
+        }
+    }
+}
