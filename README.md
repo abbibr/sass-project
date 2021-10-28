@@ -1,3 +1,3 @@
 # sass-project
  
-Sass da qilingan loyiha - Besloor deb nomlanadi
+Sass da qilingan loyiha - Besloor deb nomlangan landing page
